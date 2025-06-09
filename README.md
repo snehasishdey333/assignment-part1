@@ -48,15 +48,12 @@ In this assignment I have seperated this whole page in some different components
  9. ValueProposition
  10. Footer
 
- Then implemented these 10 components using React js and Tailwind css leveraging the powerful framework of Next JS.
+Then implemented these 10 components using React js and Tailwind css leveraging the powerful framework of Next JS.
 
- I have deployed it using Vercel which seamlessly integrates with next js
+I have deployed it using Vercel which seamlessly integrates with next js
 
- Deployed URL : https://assignment-part1-eight.vercel.app/
+Deployed URL : https://assignment-part1-eight.vercel.app/
 
- I have deployed the page using Vercel.
-
-Deployed URL: https://assignment-part1-sblt.vercel.app/
 
 Please feel free to give me feedback about my project. If there is any areas where I can improve, I will definitely appreciate and improve it.
 
