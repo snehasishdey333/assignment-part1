@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+In this assignment I have seperated this whole page in some different components.
+ 1. Navbar
+ 2. HeroSection
+ 3. Expertise
+ 4. DeepVet360
+ 5. TalentIn48Hours
+ 6. SkillsCapital
+ 7. SAPExperts
+ 8. Testimonials
+ 9. ValueProposition
+ 10. Footer
+
+ Then implemented these 10 components using React js and Tailwind css leveraging the powerful framework of Next JS.
+
+ I have deployed it using Vercel which seamlessly integrates with next js
+
+ Deployed URL : https://assignment-part1-eight.vercel.app/
+
+
