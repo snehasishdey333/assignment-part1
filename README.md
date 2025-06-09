@@ -54,4 +54,13 @@ In this assignment I have seperated this whole page in some different components
 
  Deployed URL : https://assignment-part1-eight.vercel.app/
 
+ I have deployed the page using Vercel.
+
+Deployed URL: https://assignment-part1-sblt.vercel.app/
+
+Please feel free to give me feedback about my project. If there is any areas where I can improve, I will definitely appreciate and improve it.
+
+This was the part 2 of the assignment.
+Looking forward to a positive response. ❤️
+
 
