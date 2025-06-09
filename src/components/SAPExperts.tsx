@@ -42,7 +42,16 @@ const SAPExperts = () => {
       <p className="text-center text-lg mb-12">Selected experts with knowledge and a history of successful delivery</p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {experts.map((expert, index) => (
+        {experts.map((expert: {
+    name: string;
+    match: number;
+    persona: string;
+    availability: string;
+    domainFit: string;
+    referenceScore: string;
+    readiness: string;
+    image: string;
+}, index:number) => (
           <div key={index} className="bg-white text-black rounded-2xl overflow-hidden shadow-lg flex flex-col">
             <div className="relative h-72 w-full">
               <Image

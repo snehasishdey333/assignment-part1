@@ -27,7 +27,7 @@ const Expertise = () => {
           btn: 'Access Top SAP Consulting',
           img: '/Rectangle 1358 (2).png'
         }
-      ].map(({ title, desc, btn, img }) => (
+      ].map(({ title, desc, btn, img }: { title: string; desc: string; btn: string; img: string }) => (
         <div key={title} className="bg-white rounded-xl shadow pb-6">
           <Image height={100} width={100} src={img} alt={title} className="rounded-t-xl w-full h-52 object-fill mb-4" />
           <h3 className="font-semibold text-xl px-4 text-left mb-4 text-black">{title}</h3>

@@ -1,15 +1,12 @@
-import React from 'react';
-import { ArrowRight } from 'lucide-react';
-
-
+import React from "react";
+import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
-  
   const stats = [
-    { number: '20,000+', label: 'Vetted SAP Tech Consultants' },
-    { number: '1000+', label: 'Global Clients & SAP Projects' },
-    { number: '10+ Years', label: 'Average Experience per Consultant' },
-    { number: '20M+', label: 'Man-Hours of SAP Expertise' },
+    { number: "20,000+", label: "Vetted SAP Tech Consultants" },
+    { number: "1000+", label: "Global Clients & SAP Projects" },
+    { number: "10+ Years", label: "Average Experience per Consultant" },
+    { number: "20M+", label: "Man-Hours of SAP Expertise" },
   ];
 
   return (
@@ -27,22 +24,30 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg sm:text-xl text-green-100 mb-12 leading-relaxed max-w-2xl">
-              Find and deploy elite SAP consultants, managed teams, and consulting 
-              expertise instantly with AI-driven precision.
+              Find and deploy elite SAP consultants, managed teams, and
+              consulting expertise instantly with AI-driven precision.
             </p>
 
             {/* Statistics */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-12">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center sm:text-left">
-                  <div className="text-2xl sm:text-3xl font-bold text-yellow-400 mb-2">
-                    {stat.number}
+              {stats.map(
+                (
+                  stat: {
+                    number: string;
+                    label: string;
+                  },
+                  index:number
+                ) => (
+                  <div key={index} className="text-center sm:text-left">
+                    <div className="text-2xl sm:text-3xl font-bold text-yellow-400 mb-2">
+                      {stat.number}
+                    </div>
+                    <div className="text-sm sm:text-base text-green-100 leading-tight">
+                      {stat.label}
+                    </div>
                   </div>
-                  <div className="text-sm sm:text-base text-green-100 leading-tight">
-                    {stat.label}
-                  </div>
-                </div>
-              ))}
+                )
+              )}
             </div>
 
             {/* CTA Buttons */}
@@ -66,7 +71,6 @@ const HeroSection = () => {
               className="w-full min-h-screen object-cover object-center"
             />
           </div> */}
-
         </div>
       </div>
     </section>

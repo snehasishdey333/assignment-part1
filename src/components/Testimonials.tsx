@@ -27,7 +27,10 @@ const Testimonials = () => {
       </p>
 
       <div className="mt-10 flex flex-col md:flex-row justify-center items-center gap-6">
-        {testimonials.map((testimonial, i) => (
+        {testimonials.map((testimonial: {
+    text: string;
+    author: string;
+}, i:number) => (
           <div key={i} className="bg-white rounded-xl shadow-md p-6 w-full md:w-[371px] h-[300px] flex items-start justify-center flex-col text-left">
             <div className="text-3xl text-gray-400">
                 <Image src="/Vector.png" alt="Quote Icon" width={24} height={24} />

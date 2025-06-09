@@ -22,7 +22,7 @@ const TalentIn48Hours = () => {
           desc: 'Get a new consultant within 24 hours if needed.',
           icon: '🔄'
         }
-      ].map(({ title, desc, icon }) => (
+      ].map(({ title, desc, icon }: { title: string; desc: string; icon: string }) => (
         <div key={title} className="bg-white text-black rounded-xl p-6 shadow">
           <div className="text-4xl mb-4">{icon}</div>
           <h3 className="font-bold text-xl mb-2">{title}</h3>
