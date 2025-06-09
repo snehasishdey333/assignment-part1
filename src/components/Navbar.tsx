@@ -2,11 +2,11 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
 
   const menuItems = [
     'SAP Talent Cloud',
