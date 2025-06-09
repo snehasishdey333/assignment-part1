@@ -9,20 +9,19 @@ import TalentIn48Hours from "@/components/TalentIn48Hours";
 import Testimonials from "@/components/Testimonials";
 import ValueProposition from "@/components/ValueProposition";
 
-
 export default function Home() {
   return (
     <main className="w-full bg-white">
-      <Navbar/>
-      <HeroSection/>
-      <Expertise/>
-      <DeepVet360/>
-      <TalentIn48Hours/>
-      <SkillsCapital/>
-      <SAPExperts/>
-      <Testimonials/>
-      <ValueProposition/>
-      <Footer/>
+      <Navbar />
+      <HeroSection />
+      <Expertise />
+      <DeepVet360 />
+      <TalentIn48Hours />
+      <SkillsCapital />
+      <SAPExperts />
+      <Testimonials />
+      <ValueProposition />
+      <Footer />
     </main>
   );
 }

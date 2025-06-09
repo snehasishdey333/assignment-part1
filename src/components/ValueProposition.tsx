@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const ValueProposition = () => {
   return (
@@ -7,7 +7,7 @@ const ValueProposition = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg-people.png" 
+          src="/bg-people.png"
           alt="Team Background"
           layout="fill"
           objectFit="cover"
@@ -19,7 +19,9 @@ const ValueProposition = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-5xl font-bold mb-4">Reinforce Value Proposition</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-4">
+          Reinforce Value Proposition
+        </h2>
         <p className="text-base md:text-lg text-gray-300 mb-8">
           AI-Powered SAP Talent Cloud – Instant, Pre-Vetted, Guaranteed
         </p>
@@ -34,7 +36,7 @@ const ValueProposition = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ValueProposition
+export default ValueProposition;

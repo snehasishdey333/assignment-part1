@@ -36,7 +36,7 @@ const HeroSection = () => {
                     number: string;
                     label: string;
                   },
-                  index:number
+                  index: number
                 ) => (
                   <div key={index} className="text-center sm:text-left">
                     <div className="text-2xl sm:text-3xl font-bold text-yellow-400 mb-2">
